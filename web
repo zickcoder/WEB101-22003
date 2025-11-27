@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Group Members</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 25px 0;
+            background: #222;
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .member-box {
+            background: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .member-name {
+            font-size: 22px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .info {
+            margin-top: 8px;
+            font-size: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Website Group</h1>
+</header>
+
+<div class="container">
+
+    <div class="member-box">
+        <p class="member-name">Member One</p>
+        <p class="info">Role: Designer<br>Age: 20<br>Email: member1@example.com</p>
+    </div>
+
+    <div class="member-box">
+        <p class="member-name">Member Two</p>
+        <p class="info">Role: Developer<br>Age: 21<br>Email: member2@example.com</p>
+    </div>
+
+    <div class="member-box">
+        <p class="member-name">Member Three</p>
+        <p class="info">Role: Researcher<br>Age: 19<br>Email: member3@example.com</p>
+    </div>
+
+    <div class="member-box">
+        <p class="member-name">Member Four</p>
+        <p class="info">Role: Documentation<br>Age: 22<br>Email: member4@example.com</p>
+    </div>
+
+    <div class="member-box">
+        <p class="member-name">Member Five</p>
+        <p class="info">Role: Presenter<br>Age: 20<br>Email: member5@example.com</p>
+    </div>
+
+</div>
+
+</body>
+</html>
